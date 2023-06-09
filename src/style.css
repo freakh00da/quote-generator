@@ -1,0 +1,47 @@
+body {
+  background-color: #212529;
+  color: #fff;
+  position: relative;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-box {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #343a40;
+  position: relative;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+.attribution {
+  font-size: 12px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
